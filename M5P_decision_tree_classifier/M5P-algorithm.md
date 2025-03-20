@@ -57,7 +57,8 @@ The M5P algorithm splits the data to minimize the **standard deviation of Exam S
   - Standard Deviation = 10
 
 #### Split on Hours Studied
-We test thresholds such as \( \text{Hours Studied} \leq 3 \) and \( \text{Hours Studied} > 3 \):
+We test thresholds such as "Hours Studied <= 3" and "Hours Studied > 3":
+
 
 - **Hours Studied ≤ 3**:
   - Students: {1, 3, 6}
