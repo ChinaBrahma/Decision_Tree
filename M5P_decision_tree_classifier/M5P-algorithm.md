@@ -84,9 +84,9 @@ We test thresholds such as "Hours Studied <= 3" and "Hours Studied > 3":
 Using linear regression:
 
 
-\[
+$$
 \text{Exam Score} = 35 + 5 \cdot \text{Hours Studied}
-\]
+$$
 
 
 
@@ -97,9 +97,9 @@ Using linear regression:
 Using linear regression:
 
 
-\[
+$$
 \text{Exam Score} = 45 + 6 \cdot \text{Hours Studied}
-\]
+$$
 
 
 
