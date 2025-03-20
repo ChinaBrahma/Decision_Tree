@@ -13,10 +13,10 @@ This repository is organized into subdirectories, each containing specific Markd
 
 ### Subdirectories and Files
 - **J48 Algorithm**
-  - [J48 Algorithm Explained with Manual Example](J48_decision_tree_classifier\J48-working-algorithm.md)
-  - [Role of Entropy in J48](J48_decision_tree_classifier\role-of-entropy-in-J48.md)
+  - [J48 Algorithm Explained with Manual Example](J48_decision_tree_classifier/J48-working-algorithm.md)
+  - [Role of Entropy in J48](J48_decision_tree_classifier/role-of-entropy-in-J48.md)
 - **M5P Algorithm**
-  - [M5P Algorithm with Manual Example](M5P_decision_tree_classifier\M5P-algorithm.md)
+  - [M5P Algorithm with Manual Example](M5P_decision_tree_classifier/M5P-algorithm.md)
 
 ---
 
