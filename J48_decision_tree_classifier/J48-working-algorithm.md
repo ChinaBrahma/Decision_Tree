@@ -169,8 +169,8 @@ Consider the following dataset:
 ### Step 1: Calculate \( p_i \) for Each Class
 
 - Total examples = 5
-- `Yes`: 3 instances → \( p_{Yes} = \frac{3}{5} = 0.6 \)
-- `No`: 2 instances → \( p_{No} = \frac{2}{5} = 0.4 \)
+- `Yes`: 3 instances → $$ p_{Yes} = \frac{3}{5} = 0.6 $$
+- `No`: 2 instances → $$ p_{No} = \frac{2}{5} = 0.4 $$
 
 ---
 

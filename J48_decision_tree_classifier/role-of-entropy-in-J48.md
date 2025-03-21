@@ -40,8 +40,8 @@ $$
 $$
 
 Using approximations for logarithms:
-- \( \log_2\left(\frac{3}{5}\right) = -0.737 \)
-- \( \log_2\left(\frac{2}{5}\right) = -1.322 \)
+- $$ \log_2\left(\frac{3}{5}\right) = -0.737 $$
+- $$ \log_2\left(\frac{2}{5}\right) = -1.322 $$
 
 $$
 \text{Entropy} = -\left(0.6 \cdot -0.737\right) - \left(0.4 \cdot -1.322\right)
@@ -61,7 +61,7 @@ Now we calculate the entropy for each subset based on the attribute **Outlook**.
 
 ### Subset 1: Outlook = Sunny
 - Instances: Day 1 (No), Day 2 (Yes)
-- \( p_{Yes} = \frac{1}{2}, \; p_{No} = \frac{1}{2} \)
+- $$ p_{Yes} = \frac{1}{2}, \; p_{No} = \frac{1}{2} $$
 
 $$
 \text{Entropy}_{Sunny} = -\left(\frac{1}{2} \cdot \log_2\left(\frac{1}{2}\right)\right) - \left(\frac{1}{2} \cdot \log_2\left(\frac{1}{2}\right)\right)
@@ -77,7 +77,7 @@ $$
 
 ### Subset 2: Outlook = Overcast
 - Instances: Day 3 (Yes)
-- \( p_{Yes} = 1, \; p_{No} = 0 \)
+- $$ p_{Yes} = 1, \; p_{No} = 0 $$
 
 $$
 \text{Entropy}_{Overcast} = -\left(\frac{1}{1} \cdot \log_2\left(\frac{1}{1}\right)\right) = 0
@@ -85,7 +85,7 @@ $$
 
 ### Subset 3: Outlook = Rainy
 - Instances: Day 4 (Yes), Day 5 (No)
-- \( p_{Yes} = \frac{1}{2}, \; p_{No} = \frac{1}{2} \)
+- $$ p_{Yes} = \frac{1}{2}, \; p_{No} = \frac{1}{2} $$
 
 $$
 \text{Entropy}_{Rainy} = -\left(\frac{1}{2} \cdot \log_2\left(\frac{1}{2}\right)\right) - \left(\frac{1}{2} \cdot \log_2\left(\frac{1}{2}\right)\right)
@@ -105,9 +105,9 @@ $$
 \text{Weighted Entropy} = \sum \left(\frac{\text{Subset Size}}{\text{Total Size}} \cdot \text{Entropy of Subset}\right)
 $$
 
-- **Sunny**: \( \frac{2}{5} \cdot 1.0 = 0.4 \)
-- **Overcast**: \( \frac{1}{5} \cdot 0 = 0.0 \)
-- **Rainy**: \( \frac{2}{5} \cdot 1.0 = 0.4 \)
+- **Sunny**: $$ \frac{2}{5} \cdot 1.0 = 0.4 $$
+- **Overcast**: $$ \frac{1}{5} \cdot 0 = 0.0 $$
+- **Rainy**: $$ \frac{2}{5} \cdot 1.0 = 0.4 $$
 
 $$
 \text{Weighted Entropy} = 0.4 + 0.0 + 0.4 = 0.8
